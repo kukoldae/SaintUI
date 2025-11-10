@@ -16,26 +16,9 @@
 
 ---
 
-## 📂 Структура библиотеки
-
-Library
-├── Window
-│ └── Tabs
-│ └── Sections
-│ ├── Buttons
-│ ├── Toggles
-│ ├── Inputs
-│ ├── Dropdowns
-│ └── Containers
-
-yaml
-Копировать код
-
----
-
 ## ⚙️ Основные объекты и методы
 
-### ### `Library`
+### `Library`
 
 Главный объект библиотеки.
 
