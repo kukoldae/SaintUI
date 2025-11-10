@@ -180,6 +180,7 @@
 ## 💡 Пример использования
 
 ```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/kukoldae/SaintUI/refs/heads/main/main.lua"))()
 local UI = Library:CreateWindow("Saint Hub UI")
 
 local MainTab = UI:CreateTab("Главная")
