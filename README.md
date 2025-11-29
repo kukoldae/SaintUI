@@ -25,7 +25,7 @@
 #### Методы:
 | Метод | Аргументы | Описание |
 |-------|------------|----------|
-| `Library:CreateWindow(name)` | `name: string` | Создаёт главное окно |
+| `Library:Init(name)` | `name: string` | Создаёт главное окно |
 | `Library:CreateNotification(title, message, duration?)` | `title: string`, `message: string`, `duration: number?` | Создаёт уведомление |
 | `Library:SaveConfig()` | – | Сохраняет состояние UI |
 | `Library:LoadConfig()` | – | Загружает сохранённую конфигурацию |
@@ -181,7 +181,7 @@
 
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/kukoldae/SaintUI/refs/heads/main/main.lua"))()
-local UI = Library:CreateWindow("Saint Hub UI")
+local UI = Library:Init("Saint Hub UI")
 
 local MainTab = UI:CreateTab("Главная")
 local Section = MainTab:CreateSection("Основные функции")
